@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+PyQt5 = "*"
+scipy = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+mypy = "*"
+pytest = "*"
+vulture = "*"
+
+[requires]
+python_version = "3.11"

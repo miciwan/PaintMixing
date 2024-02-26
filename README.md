@@ -3,7 +3,7 @@ On Light, Colors, Mixing Paints, and Numerical Optimization.
 
 This is a short write-up that is supposed to serve as a rough description of what's going on in the paint mixing tool in this depot.
 
-The tool is a virtual paint mixing tool and a solver that can generate recipes for creating a particular color out of existing paints. The tool comes with data for Kimera paints that I measured. The tool is a Python 3 program; it comes with all the sources, and if you have a Python distribution, you can just run it. There's also a Windows executable created with PyInstaller (see 'Releases', on the right). I can probably create a MacOS version too, if need be.
+The tool is a virtual paint mixing tool and a solver that can generate recipes for creating a particular color out of existing paints. The tool comes with data for Kimera paints that I measured. The tool is a Python 3 program; it comes with all the sources, and if you have a Python distribution, you can just run it. There's also a Windows executable created with PyInstaller (see 'Releases', on the right). I can probably create a MacOS version too, if need be (edit: I actually added one; there's a .dmg file, and it does have something in it, and if you double-click it, it does show up, so it seems to work, but honestly, I barely use Mac, so it's hard for me to say if this is the right way, or is something more expected...)
 
 If you just want to grab the tool and play with it, that's about it! Have fun, and I hope you find it at least somewhat useful.
 

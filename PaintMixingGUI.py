@@ -960,7 +960,9 @@ class PaintMixingApp(QApplication):
 
 
         #
-        paint_database = PaintMixing.PaintDatabase( [ 'data/masstone.json', 'data/mix1.json' ] )
+
+        bundle_dir = os.path.abspath(os.path.dirname(__file__))
+        paint_database = PaintMixing.PaintDatabase( [ os.path.join(bundle_dir, 'data/masstone.json'), os.path.join(bundle_dir, 'data/mix1.json') ] )
 
         mainWin = MainWindow( paint_database )
         mainWin.setWindowTitle("Paint Mixer")

@@ -1,6 +1,16 @@
 On Light, Colors, Mixing Paints, and Numerical Optimization.
 -----------------------
 
+Update
+------------
+There is now a web version of that stuff described below
+
+<a href="https://www.paint-mixing.com">www.paint-mixing.com</a> 
+
+It uses the same methods as the code in this repo, just ported to JS. To perform the optimization it uses the <a href="https://github.com/stephenbeckr/L-BFGS-B-C">L-BFGS-B-C</a> solver (which is a C port of the original Fortran <a href="https://users.iems.northwestern.edu/~nocedal/lbfgsb.html">L-BFGS-B</a> solver), compiled to webasm and running locally in your browser.
+
+------------
+
 This is a short write-up that is supposed to serve as a rough description of what's going on in the paint mixing tool in this depot.
 
 The tool is a virtual paint mixing tool and a solver that can generate recipes for creating a particular color out of existing paints. The tool comes with data for Kimera paints that I measured. The tool is a Python 3 program; it comes with all the sources, and if you have a Python distribution, you can just run it. There's also a Windows executable created with PyInstaller (see 'Releases', on the right). I can probably create a MacOS version too, if need be (edit: I actually added one; there's a .dmg file, and it does have something in it, and if you double-click it, it does show up, so it seems to work, but honestly, I barely use Mac, so it's hard for me to say if this is the right way, or is something more expected...)
